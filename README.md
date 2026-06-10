@@ -24,8 +24,6 @@
 **[ai-classroom](https://github.com/hcy1041116/ai-classroom)**
 全端學習平台（團隊專案），主導 **API 設計** 與 **網頁爬蟲** 模組。
 
-**[order-star-etl](https://github.com/hcy1041116/order-star-etl)**
-ETL 管線，將原始訂單資料轉換為星型結構 (star-schema) 資料倉儲。
 
 **[airflow-etl](https://github.com/hcy1041116/airflow-etl)**
 以 Apache Airflow 編排的資料管線。
@@ -60,9 +58,6 @@ Built an evaluation harness to make the system measurably iterable: a labeled te
 
 **[ai-classroom](https://github.com/hcy1041116/ai-classroom)**
 Full-stack learning platform (team project). Led the **API design** and **web scraping** modules.
-
-**[order-star-etl](https://github.com/hcy1041116/order-star-etl)**
-ETL pipeline transforming raw order data into a star-schema data warehouse.
 
 **[airflow-etl](https://github.com/hcy1041116/airflow-etl)**
 Orchestrated data pipeline built with Apache Airflow.
