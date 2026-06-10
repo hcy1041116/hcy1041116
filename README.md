@@ -22,7 +22,7 @@
 *目前正升級為 agentic RAG（LangGraph）：query rewriting、reranker 與自我校正檢索，並導入 LangFuse 做全流程追蹤。*
 
 **[ai-classroom](https://github.com/hcy1041116/ai-classroom)**
-全端學習平台（團隊專案），主導 **API 設計** 與 **網頁爬蟲** 模組。
+全端學習平台（團隊專案），負責後端 API 設計，以及一條將非結構化文章轉為訓練情境的資料處理 pipeline（清整 → 多階段 LLM 生成 → 品質檢核）。
 
 
 **[airflow-etl](https://github.com/hcy1041116/airflow-etl)**
@@ -57,7 +57,7 @@ Built an evaluation harness to make the system measurably iterable: a labeled te
 *Currently upgrading to an agentic RAG system (LangGraph) with query rewriting, reranking, and self-correcting retrieval, plus LangFuse for end-to-end tracing.*
 
 **[ai-classroom](https://github.com/hcy1041116/ai-classroom)**
-Full-stack learning platform (team project). Led the **API design** and **web scraping** modules.
+Full-stack learning platform (team project). Designed backend APIs and built a data pipeline transforming unstructured articles into training scenarios (cleaning → multi-stage LLM generation → quality review).
 
 **[airflow-etl](https://github.com/hcy1041116/airflow-etl)**
 Orchestrated data pipeline built with Apache Airflow.
