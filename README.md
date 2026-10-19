@@ -53,9 +53,6 @@ RAG-based multi-PDF assistant (FastAPI + LangChain + ChromaDB + PostgreSQL) with
 Built an evaluation harness to make the system measurably iterable: a labeled test set, retrieval metrics (Recall@k / MRR), and LLM-as-judge faithfulness scoring, with prompts decoupled from code for easy A/B comparison.
 *Currently upgrading to an agentic RAG system (LangGraph) with query rewriting, reranking, and self-correcting retrieval, plus LangFuse for end-to-end tracing.*
 
-**[ai-classroom](https://github.com/hcy1041116/ai-classroom)**
-Full-stack learning platform (team project). Designed backend APIs and built a data pipeline transforming unstructured articles into training scenarios (cleaning → multi-stage LLM generation → quality review).
-
 **[airflow-etl](https://github.com/hcy1041116/airflow-etl)**
 Orchestrated data pipeline built with Apache Airflow.
 
