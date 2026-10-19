@@ -21,9 +21,6 @@
 為了讓系統「可被量化迭代」，自建了 evaluation harness：標注測試集、retrieval 指標 (Recall@k / MRR) 與 LLM-as-judge faithfulness 評分，並將 prompt 抽離程式碼以利 A/B 比較。
 *目前正升級為 agentic RAG（LangGraph）：query rewriting、reranker 與自我校正檢索，並導入 LangFuse 做全流程追蹤。*
 
-**[ai-classroom](https://github.com/hcy1041116/ai-classroom)**
-全端學習平台（團隊專案），負責後端 API 設計，以及一條將非結構化文章轉為訓練情境的資料處理 pipeline（清整 → 多階段 LLM 生成 → 品質檢核）。
-
 
 **[airflow-etl](https://github.com/hcy1041116/airflow-etl)**
 以 Apache Airflow 編排的資料管線。
